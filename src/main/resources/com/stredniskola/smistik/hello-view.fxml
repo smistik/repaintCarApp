@@ -14,7 +14,7 @@
       <Circle layoutX="323.0" layoutY="178.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" layoutX="165.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="58.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" layoutX="246.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="58.0" />
-      <ColorPicker layoutX="184.0" layoutY="237.0">
+      <ColorPicker fx:id="barva" layoutX="184.0" layoutY="237.0" onAction="#zmenBarvu">
          <value>
             <Color red="0.11764705926179886" green="0.5647059082984924" blue="1.0" />
          </value>
