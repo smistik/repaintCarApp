@@ -12,6 +12,7 @@ public class HelloController {
     @FXML
     private ColorPicker barva;
 
+    boolean wracked = false;
 
     public void zmenBarvu(ActionEvent event) {
         auto.setFill(barva.getValue());
